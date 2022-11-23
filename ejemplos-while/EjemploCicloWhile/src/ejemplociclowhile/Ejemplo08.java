@@ -30,6 +30,8 @@ public class Ejemplo08 {
         boolean bandera = true;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
+       
+        //el codigo original solo era "bandera" pero al agregar que bandera sea == true
         while (bandera) {
             System.out.println("Ingrese calificación:");
             calificacion = entrada.nextDouble();

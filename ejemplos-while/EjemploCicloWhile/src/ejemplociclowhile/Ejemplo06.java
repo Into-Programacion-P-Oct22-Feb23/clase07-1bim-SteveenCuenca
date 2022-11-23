@@ -29,7 +29,10 @@ public class Ejemplo06 {
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
         // true 
+        // while (bandera){
         while (bandera) {
+            //todo es te proceso tiene la funcion de controlar los procesos de 
+           //calificaion si pongo 22 el progama lo escribe como 20 
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
 
